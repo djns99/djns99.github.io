@@ -100,6 +100,10 @@
                 {
                     fill(255, 0, 0)
                 }
+                else if(unlocked)
+                {
+                    fill(0, 255, 0)
+                }
                 else
                 {
                     fill(255)
@@ -156,9 +160,12 @@
             
             if(unlocked)
             {
+                fill(0,196,0)
+                rect(50, 100, 300, 200 )
+                fill(0)
                 textAlign(CENTER, CENTER)
-                textSize(100)
-                text("DOOR UNLOCKED", 200, 200)            
+                textSize(50)
+                text("DOOR\nUNLOCKED", 200, 200)            
             }
         }
     
